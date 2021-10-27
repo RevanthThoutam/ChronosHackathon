@@ -2,11 +2,13 @@
 <html lang='en'>
     <head>
         <meta charset="UTF-88">
-        <title>Hama</title>
+        <meta name="viewport" content>
+        <title>Famos</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     </head>
     <body>
         <div class="header">
@@ -18,32 +20,33 @@
      <div class="navbar">
 
          <div class="logo">
-             <img src="logo.png" width= "99px">
+             <img src="logo final.png" width= "125px">
          </div>
          <nav>
-             <ul>
+             <ul id="MenuItems">
                  <li><a href="">Home</a></li>
                  <li><a href="">About</a></li>
-                 <li><a href="">Categories</a></li>
+                 <li><a href="">Products</a></li>
                  <li><a href="">Contact</a></li>
                  <li><a href="">Account</a></li>
-
+                
                  </li>
              </ul>
 
          </nav>
+       <img src="menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">                                                                                                                                                        
+         <!--img src="shopping-cart.png" width="30px" height="30px"-->
          
-         <img src="shopping-cart.png" width="30px" height="30px">
      </div>
      <div class="row">
          <div class="col-2">
-             <h1>Find the best product!</h1>
-             <p>.... </p>
+             <h1>Your one stop to diverse local products</h1>
+             <p></p>
             <a href="" class="btn">Explore Now &#8594;</a>
          </div>
          <div class="col-2">
              <!--img src="4048064.jpg" width="500px"-->
-         </div>
+           
      </div>
      </div>
      </div>
@@ -53,23 +56,23 @@
             <div class ="row">
                 <div class="col-3">
                     <img src="WhatsApp Image 2021-10-27 at 4.57.45 PM.jpeg">
-                    <h1>Business 1</h1>
+                    <h1>Swagath</h1>
                     <p>About</p>
-                    <a href="" class="btn">Know more &#8594;</a>
+                    <a href=".knowmore.html" class="btn">Know more &#8594;</a>
     
                 </div>
                 <div class="col-3">
                     <img src="WhatsApp Image 2021-10-27 at 4.57.46 PM (1).jpeg">
-                    <h1>Business 2</h1>
-                    <p>About it</p>
-                    <a href="" class="btn">Know more &#8594;</a>
+                    <h1>Crafted Looms</h1>
+                    <p>About</p>
+                    <a href=".knowmore.html" class="btn">Know more &#8594;</a>
                     
                 </div>
                 <div class="col-3">
                     <img src="WhatsApp Image 2021-10-27 at 4.57.46 PM.jpeg" >
-                    <h1>Business 3</h1>
+                    <h1>Halo Food </h1>
                     <p>About</p>
-                    <a href="" class="btn">Know more &#8594;</a>
+                    <a href=".knowmore.html" class="btn">Know more &#8594;</a>
                     
                 </div>
 
@@ -87,20 +90,95 @@
         <div class ="small-container">
             <div class="row">
                 <div class="col-3">
-                  
+                <i class="fas fa-quote-left"></i>
                 <p>Has helped my business reach larger audience</p>
                 <div class="rating">
-                <i class="fa-star"></i>
-                <i class="fa-star"></i>
-                <i class="fa-star"></i>
-                <i class="fa-star"></i>
-                <i class="fa-star-o"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-o"></i>
                 </div>
-                <img src="review1.jpg">
+                <img src="review1.png">
                 <h3>Sudhakar</h3>
+            </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Has helped my business reach larger audience</p>
+                    <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+                    </div>
+                    <img src="review2.png">
+                    <h3>Shreya Thakur</h3>
+                </div>
+                    <div class="col-3">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Has helped my business reach larger audience</p>
+                        <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-o"></i>
+                        </div>
+                        <img src="review3.png">
+                        <h3>Reshma</h3>
+                    </div>
             </div>
             </div>
         </div>
     </div>
+
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Need help with your business?</h3>
+                    <p><button>Register your business now!</button></p>
+                </div>
+
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog products</li>
+                        <li>Return policy</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Follow us on social media</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>LinkedIn</li>
+                        <li>Instagram</li>
+                       
+                    </ul>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container"> 
+        
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight="200px";
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+    </script>
     </body>
     </html>
